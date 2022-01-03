@@ -383,55 +383,6 @@ X ~ 4 300 150 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# duem-symbols_DK_Relay
-#
-DEF duem-symbols_DK_Relay K 0 40 Y Y 1 F N
-F0 "K" 350 150 50 H V L CNN
-F1 "duem-symbols_DK_Relay" 350 50 50 H V L CNN
-F2 "Relay_THT:Relay_DK1a-12V-F" 350 -50 50 H I L CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Relay*StandexMeder*DIP*LowProfile*
-$ENDFPLIST
-DRAW
-S -400 200 300 -200 0 1 10 f
-S -325 75 -75 -75 0 1 10 N
-P 2 0 0 0 200 150 200 200 N
-P 4 0 0 0 200 150 200 100 175 125 200 150 N
-P 2 0 1 10 -300 -75 -100 75 N
-P 2 0 1 0 -200 -200 -200 -75 N
-P 2 0 1 0 -200 200 -200 75 N
-P 2 0 1 10 -75 0 -50 0 N
-P 2 0 1 10 -25 0 0 0 N
-P 2 0 1 10 25 0 50 0 N
-P 2 0 1 10 25 0 50 0 N
-P 2 0 1 10 75 0 100 0 N
-P 2 0 1 10 125 0 150 0 N
-P 2 0 1 20 200 -100 125 150 N
-P 2 0 1 0 200 -100 200 -200 N
-X ~ 1 -200 -300 100 U 50 50 1 1 P
-X ~ 3 200 -300 100 U 50 50 1 1 P
-X ~ 4 200 300 100 D 50 50 1 1 P
-X ~ 6 -200 300 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# duem-symbols_const_current
-#
-DEF duem-symbols_const_current U 0 40 Y Y 1 F N
-F0 "U" -200 400 50 H V C CNN
-F1 "duem-symbols_const_current" 300 -300 50 H V C CNN
-F2 "" 0 50 50 H I C CNN
-F3 "" 0 50 50 H I C CNN
-DRAW
-S -300 250 300 -250 0 1 0 f
-X VCC 1 0 350 100 D 50 50 1 1 W
-X DIM 2 -400 0 100 R 50 50 1 1 I
-X OUT 3 400 0 100 L 50 50 1 1 O
-X GND 4 0 -350 100 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # eurocard_mounting_hole
 #
 DEF eurocard_mounting_hole MK 0 40 N N 1 F N
