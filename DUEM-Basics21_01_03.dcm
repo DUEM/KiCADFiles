@@ -6,12 +6,6 @@ K switch dual-pole double-throw spdt ON-ON
 F ~
 $ENDCMP
 #
-$CMP SW_3PDT_copy
-D Momentary Switch, dual pole double throw
-K switch dual-pole double-throw spdt ON-ON
-F ~
-$ENDCMP
-#
 $CMP batt_34s12p
 D Multiple-cell battery
 K batt voltage-source cell
