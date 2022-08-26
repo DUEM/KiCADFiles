@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0V
+D Power symbol creates a global label with name "GNDPWR" , power ground
+K power-flag
+$ENDCMP
+#
 $CMP SW_3PDT
 D Momentary Switch, dual pole double throw
 K switch dual-pole double-throw spdt ON-ON
