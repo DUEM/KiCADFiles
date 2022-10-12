@@ -5,6 +5,12 @@ D Power symbol creates a global label with name "GNDPWR" , power ground
 K power-flag
 $ENDCMP
 #
+$CMP Molex_6way_Can_Conn
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP SW_3PDT
 D Momentary Switch, dual pole double throw
 K switch dual-pole double-throw spdt ON-ON
