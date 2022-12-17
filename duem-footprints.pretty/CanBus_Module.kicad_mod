@@ -1,0 +1,56 @@
+(footprint "CanBus_Module" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b00bb7cd-e049-4c40-9b9a-5bcda0b92a2e)
+  )
+  (fp_text value "CanBus_Module" (at 0 1 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f1ed586f-11a4-446d-9c00-5cc7e1ca04bb)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 473a2a14-b713-4d8b-a009-171780661aea)
+  )
+  (fp_rect (start -14 -20) (end 14 20) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp e78844e4-f68b-491c-886f-b302842fc528))
+  (pad "CAN H" thru_hole roundrect (at 1.24 -11.55) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp ead0d8ae-b131-487d-b14d-01616f1f18bc))
+  (pad "CAN L" thru_hole roundrect (at -1.29 -11.54) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp e9afff2a-4c1d-41c6-9d7f-a318a5e655ee))
+  (pad "CS" thru_hole roundrect (at 2.54 18.7) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp ee73bc47-9f92-42f6-a2fb-5ca18ff08828))
+  (pad "GND" thru_hole roundrect (at 5.07 18.7) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp fe128d88-4c36-4e16-a70f-d4e496d2c506))
+  (pad "INT" thru_hole roundrect (at -7.6 18.68) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 76157372-a672-4615-a7ea-0814e257e0d5))
+  (pad "JUMPER" thru_hole roundrect (at -11.55 -12.8 90) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 5162e14f-df40-41c6-9bdd-6d53b70a1ec4))
+  (pad "JUMPER" thru_hole roundrect (at -11.54 -10.27 90) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 8319d2bf-7187-4b2c-ba00-be6384a612e6))
+  (pad "MH" thru_hole circle (at -11.5 -17.5) (size 3.5 3.5) (drill 3) (layers *.Cu *.Mask) (tstamp 28509cd8-3573-4627-8278-4533c2033006))
+  (pad "MH" thru_hole circle (at -11.5 17.5) (size 3.5 3.5) (drill 3) (layers *.Cu *.Mask) (tstamp 47fcc404-ecb1-4160-95c0-165aff8fd840))
+  (pad "MH" thru_hole circle (at 11.5 17.6) (size 3.5 3.5) (drill 3) (layers *.Cu *.Mask) (tstamp 8009fe4e-44a3-4460-9e50-ffe4a1c2a169))
+  (pad "MH" thru_hole circle (at 11.5 -17.6) (size 3.5 3.5) (drill 3) (layers *.Cu *.Mask) (tstamp 8ad476ae-92ae-46a7-9be4-7356e8756a18))
+  (pad "SCK" thru_hole roundrect (at -5.07 18.7) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp e0c182c5-3dd7-4022-944b-340fec21de1c))
+  (pad "SI" thru_hole roundrect (at -2.53 18.7) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp e4868f5f-dfb5-4d0d-8136-fd6920b86ceb))
+  (pad "SO" thru_hole roundrect (at 0.01 18.7) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 1c007349-8e61-4ca2-a80c-6cdd8523b59b))
+  (pad "VCC" thru_hole roundrect (at 7.6 18.7) (size 2.54 2.54) (drill 0.7) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp fee2ffd3-269b-4d44-b2a5-648171db1207))
+  (group "" (id 1ea09a35-6d48-4e29-a9d8-34ab88220c63)
+    (members
+      1c007349-8e61-4ca2-a80c-6cdd8523b59b
+      76157372-a672-4615-a7ea-0814e257e0d5
+      e0c182c5-3dd7-4022-944b-340fec21de1c
+      e4868f5f-dfb5-4d0d-8136-fd6920b86ceb
+      ee73bc47-9f92-42f6-a2fb-5ca18ff08828
+      fe128d88-4c36-4e16-a70f-d4e496d2c506
+      fee2ffd3-269b-4d44-b2a5-648171db1207
+    )
+  )
+  (group "" (id 7d6deb42-eea1-4a19-a1ab-98de1fa91c6d)
+    (members
+      5162e14f-df40-41c6-9bdd-6d53b70a1ec4
+      8319d2bf-7187-4b2c-ba00-be6384a612e6
+    )
+  )
+  (group "" (id 9a3457a0-3ec6-45a7-b33f-9799ad3362b5)
+    (members
+      e9afff2a-4c1d-41c6-9d7f-a318a5e655ee
+      ead0d8ae-b131-487d-b14d-01616f1f18bc
+    )
+  )
+)
